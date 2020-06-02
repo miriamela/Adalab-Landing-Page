@@ -22,15 +22,16 @@ body{
     font-family: var(--primary-font) ;
 }
 
-.header, .main, .logo, .menu{
+/*.header, .main, .logo, .menu{
     border: 1px solid red;
-}
+}*/
 
 .wrapper{
     width: 100%;
     max-width: 1200px;
     /*padding: 10px;*/
     text-align: center;
+    margin: auto;
 }
 
 .logo{
@@ -54,6 +55,7 @@ body{
 .menu li{
     display: inline-block;
     font-size: 16px;
+    color: var(--primary-color);
 }
 
 .menu li:first-child{
@@ -85,7 +87,7 @@ h1{
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .logo{ 
         margin-left: 30px;    
     }
@@ -94,6 +96,8 @@ h1{
         margin-right: 30px;
     }
 
-
+    h1{
+        font-size: 40px;
+    }
 
 }
