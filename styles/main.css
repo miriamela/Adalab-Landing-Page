@@ -55,6 +55,7 @@ body{
 .menu li{
     display: inline-block;
     font-size: 16px;
+    text-transform: uppercase;
     color: var(--menu-color);
 }
 
@@ -74,6 +75,7 @@ h1{
     color: var(--font-color);
     font-weight: var(--bold-weight);
     font-size: 30px;
+    text-transform: capitalize;
 }
 .title span{
     display: block;
@@ -94,6 +96,9 @@ h1{
 
     .menu{
         margin-right: 30px;
+    }
+    .menu li{
+        text-transform: capitalize;
     }
 
     h1{
